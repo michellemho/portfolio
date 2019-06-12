@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-06-11T17:06:23-07:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">Michelle Ho</title>
+  
+
+  
+    <subtitle>Work portfolio of Michelle Ho.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">NYC Tax Lot Data Dashboard</title>
+      <link href="http://localhost:4000/2014/07/15/nyc-data/" rel="alternate" type="text/html" title="NYC Tax Lot Data Dashboard" />
+      <published>2014-07-15T00:00:00-07:00</published>
+      <updated>2014-07-15T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/15/nyc-data</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/15/nyc-data/">&lt;p&gt;A real-estate industry client approached CARTO to create an interactive custom data dashboard for identifying prospects for development in NYC based on tax lot information and proximity to features of interest.&lt;/p&gt;
+
+&lt;p&gt;My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">A real-estate industry client approached CARTO to create an interactive custom data dashboard for identifying prospects for development in NYC based on tax lot information and proximity to features of interest.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Traffic Analysis</title>
+      <link href="http://localhost:4000/2014/07/14/traffic-analysis/" rel="alternate" type="text/html" title="Traffic Analysis" />
+      <published>2014-07-14T00:00:00-07:00</published>
+      <updated>2014-07-14T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/14/traffic-analysis</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/14/traffic-analysis/">&lt;p&gt;An analysis for CARTO of traffic and collision data from NYC to detect hotspots of collisions, understand the relationship between collisions and traffic, and determine what road features are important for road safety.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://carto.com/blog/predicting-nyc-collisions/&quot;&gt;CARTO Blog Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code to reproduce in this &lt;a href=&quot;https://gist.github.com/michellemho/6343a0737b0bc2f8e3389eaba2ecce43&quot;&gt;Jupyter notebook&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">An analysis for CARTO of traffic and collision data from NYC to detect hotspots of collisions, understand the relationship between collisions and traffic, and determine what road features are important for road safety.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Where To Move</title>
+      <link href="http://localhost:4000/2014/07/13/where-to-move/" rel="alternate" type="text/html" title="Where To Move" />
+      <published>2014-07-13T00:00:00-07:00</published>
+      <updated>2014-07-13T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/13/where-to-move</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/13/where-to-move/">&lt;p&gt;This personal project is to identify best locations based on minimizing commute to multiple locations.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bl.ocks.org/michellemho/raw/7bda353d62975d8dc24f600db25ac550/&quot;&gt;Demo here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code and steps to reproduce can be found in this &lt;a href=&quot;https://github.com/michellemho/time_distance&quot;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">This personal project is to identify best locations based on minimizing commute to multiple locations.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">CUSP Capstone</title>
+      <link href="http://localhost:4000/2014/07/12/cusp-capstone/" rel="alternate" type="text/html" title="CUSP Capstone" />
+      <published>2014-07-12T00:00:00-07:00</published>
+      <updated>2014-07-12T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/12/cusp-capstone</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/12/cusp-capstone/">&lt;p&gt;For my final capstone project at CUSP, I teamed up with four classmates to work with researchers from &lt;a href=&quot;http://www.betagov.org/&quot;&gt;BetaGov&lt;/a&gt; and the &lt;a href=&quot;https://www.sccgov.org/sites/da/Pages/DA-office-site-home-page.aspx&quot;&gt;Santa Clara District Attorney&lt;/a&gt; to analyze case timeline data and determine what caused delays in the prosecutorial process.&lt;/p&gt;
+
+&lt;p&gt;For my role in the project, I contributed in the data cleaning, data exploration, and random forest modeling for predicting time to case resolution. I also coordinated communication between the CUSP team, BetaGov and Santa Clara. We traveled to Santa Clara to present our initial findings and receive feedback on our work.&lt;/p&gt;
+
+&lt;p&gt;Read final paper on &lt;a href=&quot;https://www.authorea.com/users/45/articles/187222-a-data-driven-evaluation-of-delays-in-criminal-prosecution&quot;&gt;Authorea&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">For my final capstone project at CUSP, I teamed up with four classmates to work with researchers from BetaGov and the Santa Clara District Attorney to analyze case timeline data and determine what caused delays in the prosecutorial process.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">2016 Election Analysis</title>
+      <link href="http://localhost:4000/2014/07/11/election/" rel="alternate" type="text/html" title="2016 Election Analysis" />
+      <published>2014-07-11T00:00:00-07:00</published>
+      <updated>2014-07-11T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/11/election</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/11/election/">&lt;p&gt;An exploration of 2016 presidential election results with census data to better understand what divides our country. Inspired by NY Times analysis.&lt;/p&gt;
+
+&lt;p&gt;Original CARTO blog post &lt;a href=&quot;https://carto.com/blog/presidential-elections-us/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">An exploration of 2016 presidential election results with census data to better understand what divides our country. Inspired by NY Times analysis.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

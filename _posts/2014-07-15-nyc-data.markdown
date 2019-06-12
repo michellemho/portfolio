@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: urbanmuse.png
+alt: image-alt
+project-date: January 2018
+title: NYC Tax Lot Data Dashboard
+
+---
+A real-estate industry client approached CARTO to create an interactive custom data dashboard for identifying prospects for development in NYC based on tax lot information and proximity to features of interest.
+
+My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.
