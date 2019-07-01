@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-11
+img: roadtrip.png
+alt: image-alt
+project-date: February 2019
+title: Road-trip Map-Blog
+---
+
+I created a map-based road-trip blog to share progress of my journey with friends and family. I used Jekyll, Mapbox GL JS, and CARTO VL with Formspree and TinyLetter incorporated to help viewers subscribe and send us suggestions. I also added Google Analytics to track how many people were visiting and viewing our posts.
+
+View the blog [here](https://michellemho.github.io)
