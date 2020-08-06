@@ -22,7 +22,7 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,8 +31,19 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143172236-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143172236-1');
+</script>
+
 </head>
 
+    
     <body id="page-top" class="index">
        <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -83,87 +94,92 @@
             </div>
         </div>
     </header>
-    
-    <!-- Writing Section -->
-    <section id="writing">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Writings</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div id="medium-widget"></div>
-                <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-                <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@michellemho","postsPerLine":2,"limit":4,"picture":"big","fields":["description","publishAt"],"ratio":"landscape"}})</script>
-            </div>
-        </div>
-    </section>
         <!-- Portfolio Grid Section -->
     <section id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Portfolio</h2>
+                        <h1>Portfolio</h1>
                         <hr>
                     </div>
                 </div>
 
                 <div class="row">
                     
-                        <div class="portfolio-item">
+                        <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/urbanmuse.png" class="img-responsive" alt="image-alt">
+                                <img src="img/portfolio/urbanmuse.png" class="center-cropped img img-responsive full-width" alt="image-alt">
                             </a>
                         </div>
                     
-                        <div class="portfolio-item">
-                            <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-7" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/traffic.png" class="img-responsive" alt="image-alt">
+                                <img src="img/portfolio/traffic.png" class="center-cropped img img-responsive full-width" alt="image-alt">
                             </a>
                         </div>
                     
-                        <div class="portfolio-item">
+                        <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/wheretomove.png" class="img-responsive" alt="image-alt">
+                                <img src="img/portfolio/wheretomove.png" class="center-cropped img img-responsive full-width" alt="image-alt">
                             </a>
                         </div>
                     
-                        <div class="portfolio-item">
-                            <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/dashboard.png" class="img-responsive" alt="image-alt">
+                                <img src="img/portfolio/dashboard.png" class="center-cropped img img-responsive full-width" alt="image-alt">
                             </a>
                         </div>
                     
-                        <div class="portfolio-item">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/roadtrip.png" class="center-cropped img img-responsive full-width" alt="image-alt">
+                            </a>
+                        </div>
+                    
+                        <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/election.png" class="img-responsive" alt="image-alt">
+                                <img src="img/portfolio/election.png" class="center-cropped img img-responsive full-width" alt="image-alt">
+                            </a>
+                        </div>
+                    
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/unemployment.png" class="center-cropped img img-responsive full-width" alt="auto-updates monthly">
                             </a>
                         </div>
                     
@@ -175,7 +191,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h1>About</h1>
                     <hr>
                 </div>
             </div>
@@ -185,7 +201,7 @@
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="http://localhost:4000/resume.pdf" class="btn btn-lg btn-outline">
+                    <a href="/resume.pdf" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Resume
                     </a>
                 </div>
@@ -193,6 +209,26 @@
         </div>
     </section>
 
+    
+    <!-- Writing Section -->
+    <section id="writing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Writings</h1>
+                    <hr>
+                </div>
+            </div>
+                <div id="retainable-rss-embed" 
+                data-rss="https://medium.com/feed/@michellemho"
+                data-maxcols="4" 
+                data-layout="slider" 
+                data-poststyle="external" 
+                data-readmore="" 
+                data-buttonclass="btn" 
+                data-offset="-300"></div>
+        </div>
+    </section>
 
 
         <!-- Footer -->
@@ -201,14 +237,6 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3></h3>
-                        <p>
-                            
-                                 <br>
-		                    
-                                 <br>
-		                    
-                        </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -240,7 +268,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Michelle Ho 2019
+                        Copyright &copy; Michelle Ho 2020
                     </div>
                 </div>
             </div>
@@ -276,6 +304,8 @@
                                 A real-estate industry client approached CARTO to create an interactive custom data dashboard for identifying prospects for development in NYC based on tax lot information and proximity to features of interest.
 
 My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.
+
+[Demo](https://cartodb.github.io/urban-muse/urbanmuse_app/)
                             </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -285,7 +315,7 @@ My contribution to the project was end-to-end design brainstorm, data processing
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -349,7 +379,7 @@ Code and steps to reproduce can be found in this [Github repo](https://github.co
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -372,6 +402,35 @@ For my role in the project, I contributed in the data cleaning, data exploration
 
 
 Read final paper on [Authorea](https://www.authorea.com/users/45/articles/187222-a-data-driven-evaluation-of-delays-in-criminal-prosecution)
+                            </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Road-trip Map-Blog</h2>
+                            <hr>
+                            <img src="img/portfolio/roadtrip.png" class="img-responsive img-centered" alt="image-alt">
+                            
+                            <p>
+                                I created a map-based road-trip blog to share progress of my journey with friends and family. I used Jekyll, Mapbox GL JS, and CARTO VL with Formspree and TinyLetter incorporated to help viewers subscribe and send us suggestions. I also added Google Analytics to track how many people were visiting and viewing our posts.
+
+View the blog [here](https://michellemho.github.io)
                             </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -411,6 +470,36 @@ Read final paper on [Authorea](https://www.authorea.com/users/45/articles/187222
         </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>COVID Unemployment Recovery</h2>
+                            <hr>
+                            <img src="img/portfolio/unemployment.png" class="img-responsive img-centered" alt="auto-updates monthly">
+                            
+                            <p>
+                                <p>Comparing unemployment recovery from previous recessions.</p>
+
+<p><img src="https://economic-data-covid-1.s3-us-west-2.amazonaws.com/unemployment.png" alt="Auto-updates monthly" /></p>
+
+                            </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
      <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>
 
@@ -432,6 +521,8 @@ Read final paper on [Authorea](https://www.authorea.com/users/45/articles/187222
     <script src="/js/freelancer.js"></script>
 
     
+
+    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
     </body>
 </html>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-06-11T17:06:23-07:00</updated>
+  <updated>2020-08-05T17:28:24-07:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -27,7 +27,9 @@
       <id>http://localhost:4000/2014/07/15/nyc-data</id>
       <content type="html" xml:base="http://localhost:4000/2014/07/15/nyc-data/">&lt;p&gt;A real-estate industry client approached CARTO to create an interactive custom data dashboard for identifying prospects for development in NYC based on tax lot information and proximity to features of interest.&lt;/p&gt;
 
-&lt;p&gt;My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.&lt;/p&gt;</content>
+&lt;p&gt;My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cartodb.github.io/urban-muse/urbanmuse_app/&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -162,6 +164,40 @@
     </entry>
   
     <entry>
+      <title type="html">Road-trip Map-Blog</title>
+      <link href="http://localhost:4000/2014/07/11/roadtrip/" rel="alternate" type="text/html" title="Road-trip Map-Blog" />
+      <published>2014-07-11T00:00:00-07:00</published>
+      <updated>2014-07-11T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/11/roadtrip</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/11/roadtrip/">&lt;p&gt;I created a map-based road-trip blog to share progress of my journey with friends and family. I used Jekyll, Mapbox GL JS, and CARTO VL with Formspree and TinyLetter incorporated to help viewers subscribe and send us suggestions. I also added Google Analytics to track how many people were visiting and viewing our posts.&lt;/p&gt;
+
+&lt;p&gt;View the blog &lt;a href=&quot;https://michellemho.github.io&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">I created a map-based road-trip blog to share progress of my journey with friends and family. I used Jekyll, Mapbox GL JS, and CARTO VL with Formspree and TinyLetter incorporated to help viewers subscribe and send us suggestions. I also added Google Analytics to track how many people were visiting and viewing our posts.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">2016 Election Analysis</title>
       <link href="http://localhost:4000/2014/07/11/election/" rel="alternate" type="text/html" title="2016 Election Analysis" />
       <published>2014-07-11T00:00:00-07:00</published>
@@ -189,6 +225,40 @@
 
       
         <summary type="html">An exploration of 2016 presidential election results with census data to better understand what divides our country. Inspired by NY Times analysis.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">COVID Unemployment Recovery</title>
+      <link href="http://localhost:4000/2014/07/10/covid-unemployment/" rel="alternate" type="text/html" title="COVID Unemployment Recovery" />
+      <published>2014-07-10T00:00:00-07:00</published>
+      <updated>2014-07-10T00:00:00-07:00</updated>
+      <id>http://localhost:4000/2014/07/10/covid-unemployment</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/10/covid-unemployment/">&lt;p&gt;Comparing unemployment recovery from previous recessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://economic-data-covid-1.s3-us-west-2.amazonaws.com/unemployment.png&quot; alt=&quot;Auto-updates monthly&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Comparing unemployment recovery from previous recessions.</summary>
       
 
       

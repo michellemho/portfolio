@@ -27,8 +27,8 @@ a.active {
     color: #{{ site.color.link-color }};
 }
 
-h1,
-h2,
+h1 {font-size: 2em},
+h2 {font-size: 1.5em},
 h3,
 h4,
 h5,
@@ -81,7 +81,9 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-
+img {
+    max-width: 100%;
+}
 header {
     text-align: center;
     color: #fff;
@@ -184,7 +186,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 section.success {
@@ -432,6 +434,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    display: inline-grid;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -482,4 +485,8 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#rtb * {
+    text-align: center;
 }

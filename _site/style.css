@@ -10,7 +10,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+html{
+    font-size: 16pt;
+}
 body {
     overflow-x: hidden;
 }
@@ -32,8 +34,8 @@ a.active {
     color: #553555;
 }
 
-h1,
-h2,
+h1 {font-size: 2em},
+h2 {font-size: 1.5em},
 h3,
 h4,
 h5,
@@ -86,7 +88,9 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-
+img {
+    max-width: 100%;
+}
 header {
     text-align: center;
     color: #fff;
@@ -98,7 +102,7 @@ header {
 }
 
 header .container {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -116,7 +120,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: .4em;
+    font-size: 1.25em;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -184,12 +188,12 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 section.success {
@@ -211,6 +215,27 @@ section.success {
     right: 0;
     margin: 0 0 15px;
 }
+
+/* .image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+    width: height;
+} */
+.center-cropped {
+    object-fit: cover;
+    object-position: center; /* Center the image within the element */
+    height: 300px;
+    /* width: 200px; */
+  }
+/* .image img{
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+} */
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
@@ -411,11 +436,12 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    display: inline-grid;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -466,4 +492,8 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#rtb * {
+    text-align: center;
 }
