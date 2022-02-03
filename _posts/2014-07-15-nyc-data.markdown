@@ -12,4 +12,4 @@ A real-estate industry client approached CARTO to create an interactive custom d
 
 My contribution to the project was end-to-end design brainstorm, data processing, and front-end development.
 
-[Demo](https://cartodb.github.io/urban-muse/urbanmuse_app/)
+[Demo](https://michellemho.github.io/nyc_real_estate/urbanmuse_app/)
